@@ -99,6 +99,8 @@ let getTotalPage = function (url) {
         });
     return deferred.promise;
 };
+
+
 module.exports.getLinkTasks = getLinkTasks;
 module.exports.getPageLinkTasks = getPageLinkTasks;
 module.exports.getBaidu = getBaidu;
